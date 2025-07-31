@@ -1,0 +1,28 @@
+DJ - Librería de Documentos Tributarios
+=======================================
+
+Proyecto DJ creado exitosamente.
+
+Estructura del proyecto:
+- dj/: Módulo principal de la librería
+  - storage/: Almacenamiento de datos (DataGenerar, DataDeclaracion, DataSii)
+  - validator/: Validación de documentos (DJValidator)
+  - generator/: Generación de XML (DJGenerator)
+  - data/: Datos estandarizados (Standards, SiiCodes)
+  - utils/: Utilidades (helpers)
+
+- examples/: Ejemplos de uso
+- tests/: Tests unitarios
+- Archivos de configuración: setup.py, pyproject.toml, etc.
+
+Para probar la librería:
+1. Ejecutar: python examples/ejemplo_basico.py
+2. Instalar en modo desarrollo: pip install -e .
+
+Funcionalidades implementadas:
+✓ Almacenamiento de documentos y declaraciones
+✓ Validación completa de documentos tributarios
+✓ Generación de XML para diferentes tipos de DTE
+✓ Códigos y tablas del SII
+✓ Utilidades para RUT, montos y formatos
+✓ Documentación y ejemplos
